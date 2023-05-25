@@ -2,17 +2,29 @@
   "name": "@jcbhmr/html-error-event",
   "version": "1.0.0",
   "description": "⏰ Make the global an EventTarget and dispatch process events globally",
-  "keywords": ["nodejs", "polyfill", "error-monitoring", "error-reporting"],
+  "keywords": [
+    "nodejs",
+    "polyfill",
+    "error-monitoring",
+    "error-reporting"
+  ],
   "homepage": "https://jcbhmr.github.io/html-error-event",
   "bugs": "https://github.com/jcbhmr/html-error-event/issues",
   "repository": "github:jcbhmr/html-error-event",
   "license": "MIT",
   "author": "Jacob Hummer <jcbhmr@outlook.com> (https://jcbhmr.me/)",
   "type": "module",
+  "imports": {
+    "#error-event-polyfill.js": {
+      "node": "./dist/error-event-polyfil-node.js",
+      "default": "./dist/error-event-polyfill.js"
+    }
+  },
   "exports": {
-    ".": {
-      "node": "./dist/index-node.js",
-      "default": "./dist/index.js"
+    ".": "./dist/index.js",
+    "./error-event-polyfill.js": {
+      "node": "./dist/error-event-polyfil-node.js",
+      "default": "./dist/error-event-polyfill.js"
     },
     "./*.js": "./dist/*.js",
     "./internal/*": null
@@ -27,6 +39,7 @@
     "test": "tsc --noEmit && tsx --test test/**.test.ts"
   },
   "devDependencies": {
+    "@jcbhmr/node-45981": "^1.0.5",
     "@types/node": "^20.2.1",
     "prettier": "^2.8.8",
     "prettier-plugin-jsdoc": "^0.4.2",
