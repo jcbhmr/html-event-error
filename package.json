@@ -38,6 +38,9 @@
     "pretest": "prettier --ignore-path .gitignore -w .",
     "test": "tsc --noEmit && tsx --test test/**.test.ts"
   },
+  "dependencies": {
+    "@jcbhmr/html-event-handler-attributes": "^1.0.0"
+  },
   "devDependencies": {
     "@jcbhmr/node-45981": "^1.0.5",
     "@types/node": "^20.2.1",
