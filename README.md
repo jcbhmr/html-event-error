@@ -1,5 +1,3 @@
-![🚧 Under construction 👷‍♂️](https://i.imgur.com/LEP2R3N.png)
-
 # `ErrorEvent` and `.onerror` for Node.js
 
 🌋 Provides an `ErrorEvent` implementation and listens to `process.on("error")`
