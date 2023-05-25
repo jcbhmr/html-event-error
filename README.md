@@ -2,10 +2,11 @@
 
 # `ErrorEvent` and `.onerror` for Node.js
 
-🌋 Provides an ErrorEvent implementation and listens to `process.on("error")`
+🌋 Provides an `ErrorEvent` implementation and listens to `process.on("error")`
 
 🧊 Isomorphically works on all platforms, including the browser! \
 🛑 Assumes the global object is an `EventTarget` \
+🌋 Provides an `.onerror` property \
 📦 Exposes `ErrorEvent.js` for other uses
 
 ## Installation
