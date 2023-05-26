@@ -73,3 +73,10 @@ Here's a support matrix for `.onerror` and `ErrorEvent` as of May 2023:
 
 ℹ You probably don't need this unless you're working in a Node.js environment.
 Browser support for the `ErrorEvent` and `.onerror` is universal.
+
+<!-- prettier-ignore-start -->
+[jcbhmr/node-45981]: https://github.com/jcbhmr/node-45981#readme
+[nodejs/node#45981]: https://github.com/nodejs/node/issues/45981
+[Yarn]: https://yarnpkg.com/
+[pnpm]: https://pnpm.io/
+<!-- prettier-ignore-end -->
