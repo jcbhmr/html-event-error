@@ -65,15 +65,11 @@ export const dispatchErrorEvent = (target) =>
 
 Here's a support matrix for `.onerror` and `ErrorEvent` as of May 2023:
 
-<div align="center">
-
 |               | Node.js | Deno | Bun | Browser |
 | ------------- | ------- | ---- | --- | ------- |
 | `error` event | ❌      | ✅   | ❌  | ✅      |
 | `.onerror`    | ❌      | ✅   | ❌  | ✅      |
 | `ErrorEvent`  | ❌      | ✅   | ✅  | ✅      |
-
-</div>
 
 ℹ You probably don't need this unless you're working in a Node.js environment.
 Browser support for the `ErrorEvent` and `.onerror` is universal.
