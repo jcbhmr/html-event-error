@@ -1,5 +1,5 @@
 {
-  "name": "@jcbhmr/html-error-event",
+  "name": "@jcbhmr/html-event-error",
   "version": "1.0.0",
   "description": "🌋 Provides an ErrorEvent implementation and listens to process.on(\"error\")",
   "keywords": [
@@ -8,9 +8,9 @@
     "error-monitoring",
     "error-reporting"
   ],
-  "homepage": "https://jcbhmr.github.io/html-error-event",
-  "bugs": "https://github.com/jcbhmr/html-error-event/issues",
-  "repository": "github:jcbhmr/html-error-event",
+  "homepage": "https://jcbhmr.github.io/html-event-error",
+  "bugs": "https://github.com/jcbhmr/html-event-error/issues",
+  "repository": "github:jcbhmr/html-event-error",
   "license": "MIT",
   "author": "Jacob Hummer <jcbhmr@outlook.com> (https://jcbhmr.me/)",
   "type": "module",
